@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 400px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+.first {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  color: #808080;
+}
+
+.description {
+  max-width: 60ch;
+  color: #808080;
+}
+
+.strg {
+  color: white;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 5px 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.title {
+  padding-top: 10px;
+}

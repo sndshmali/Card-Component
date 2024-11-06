@@ -1,0 +1,56 @@
+.open-sans-<uniquifier > {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  border-radius: 10px;
+  margin: 100px auto 0;
+  width: 500px;
+}
+
+.main {
+  color: rgba(187, 185, 185, 0.5);
+  width: 400px;
+  height: 200px;
+}
+
+.strg,
+h2 {
+  color: rgba(187, 185, 185, 0.5);
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 8px 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+
+.first {
+  font-size: 15px;
+}
